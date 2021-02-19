@@ -53,7 +53,7 @@
                 <div class="form-row">
                   <div class="form-group col-md-6">
                     <label for="inputNIM">NIM</label>
-                    <input type="number" class="form-control" id="inputNIM" name="inputNIM" min="193140710000000" max="193140719999999" required>
+                    <input type="number" class="form-control" id="inputNIM" name="inputNIM" min="203140710000000" max="203140719999999" required>
                     <small id="emailexp" class="form-text text-muted">19314071****</small>
                   </div>
                   <div class="form-group col-md-4">
