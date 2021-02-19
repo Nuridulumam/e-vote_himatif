@@ -38,8 +38,12 @@
                 <h5 class="card-title">Pemilihan Calon Ketua HIMATIF 2021</h5>
                 <p class="card-text"></p>
                 <?php
-                  if ($_SESSION['pilihan'] == "") {
-                    echo '<a href="vote-page.php" class="btn btn-primary">VOTE!</a>';
+                  if ($_SESSION['pilihan1'] == "") {
+                    if ($_SESSION['pilihan2'] == "") {
+                      echo '<a href="vote-page.php" class="btn btn-primary">VOTE!</a>';
+                    } else {
+                      echo '<div class="alert alert-success" role="alert"> Anda sudah menggunakan hak suara </div>';
+                    }
                   } else {
                     echo '<div class="alert alert-success" role="alert"> Anda sudah menggunakan hak suara </div>';
                   }

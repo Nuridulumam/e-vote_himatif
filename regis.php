@@ -15,7 +15,7 @@ $id_pemilih = "VTI$kode";
 // query simpan
 
 // verifikasi nama dan username 
-$regis = mysqli_query($koneksi, "SELECT * from tb_user");
+$regis = mysqli_query($koneksi, "SELECT * from tb_user where nama_lengkap='$namalengkap'");
 $cek_data = mysqli_fetch_array($regis);
 
 // validasi user exist
@@ -25,5 +25,5 @@ $cek_data = mysqli_fetch_array($regis);
         mysqli_query($koneksi, "INSERT INTO tb_user VALUE('', '$id_pemilih', '$nim', '$email','$namalengkap', '$username', '$password', '$kelas', '$absen')");
         header("location:login.php");
     } else {
-            header("location:regiis.php?pesan=gagal");
+        header("location:regiis.php?pesan=gagal");
     }

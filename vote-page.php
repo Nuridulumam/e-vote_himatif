@@ -42,8 +42,8 @@
             <!-- <img src="..." class="card-img-top" alt="..."> -->
             <svg class="bd-placeholder-img card-img-top" width="100%" height="180" focusable="false" role="img" aria-label="Placeholder: Image cap"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".0em">Foto Paslon 1</text></svg>
               <div class="card-body">
-                <h5 class="card-title">KAHIM - WAKAHIM</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h6 class="card-title">Nur Amalia Asmi - Attila Shandi Prayogi</h6>
+                <p class="card-text"></p>
                 <form action="vote.php" method="POST">
                   <input type="submit" class="btn btn-primary" name="KAHIM-WAKAHIM1" value="PASLON 1">
               </div>
@@ -52,11 +52,11 @@
           <div class="col-sm-4 mt-5">
             <div class="card shadow bg-white">
               <!-- <img src="..." class="card-img-top" alt="..."> -->
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="180" focusable="false" role="img" aria-label="Placeholder: Image cap"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".0em">Foto Paslon 1</text></svg>
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="180" focusable="false" role="img" aria-label="Placeholder: Image cap"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".0em">-</text></svg>
               <div class="card-body">
-                <h5 class="card-title">KAHIM - WAKAHIM</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <input type="submit" class="btn btn-primary" name="KAHIM-WAKAHIM2" value="PASLON 2">
+                <h6 class="card-title">Tidak Memilih</h6>
+                <p class="card-text"></p>
+                <input type="submit" class="btn btn-primary" name="KAHIM-WAKAHIM2" value="Tidak Memilih">
               </div>
             </div>
           </div>

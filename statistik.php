@@ -11,11 +11,12 @@
   <body>
     <?php
       session_start();
-
+      include 'koneksi.php';
       // cek apakah yang mengakses halaman ini sudah login
       if ($_SESSION['id_pemilih'] == "") {
         header("location:login.php?pesan=gagal");
       }
+
     ?>
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
       <div class="container">
@@ -67,12 +68,20 @@
 
           // The data for our dataset
           data: {
-              labels: ['Paslon 1', 'Paslon 2'],
+              labels: ['Ami - Yogi', 'Tidak Memilih'],
               datasets: [{
                   label: 'Hasil e-vote Kahim-Wakahim Himatif 2021',
                   backgroundColor: ['rgb(255, 99, 132)', 'rgb(54, 162, 235)'],
                   borderColor: 'rgb(255, 255, 255)',
-                  data: [120, 340]
+                  data: [
+                  <?php 
+                    $hitung_paslon1 = mysqli_query($koneksi, "SELECT * FROM tb_paslon1 where pilihan='AMI - YOGI'");
+                    echo mysqli_num_rows($hitung_paslon1);
+                    ?>, 
+                  <?php 
+                    $hitung_paslon2 = mysqli_query($koneksi, "SELECT * FROM tb_paslon2 where pilihan='Tidak Memilih'");
+                    echo mysqli_num_rows($hitung_paslon2);
+                    ?>]
               }]
           },
 
