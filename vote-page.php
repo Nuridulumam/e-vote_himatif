@@ -39,8 +39,7 @@
           <div class="col-sm-2"></div>
           <div class="col-sm-4 mt-5">
             <div class="card shadow bg-white">
-            <!-- <img src="..." class="card-img-top" alt="..."> -->
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="180" focusable="false" role="img" aria-label="Placeholder: Image cap"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".0em">Foto Paslon 1</text></svg>
+            <img class="card-img-top" src="img/Paslon 1 (2).png" alt="Kahim-wakahim">
               <div class="card-body">
                 <h6 class="card-title">Nur Amalia Asmi - Attila Shandi Prayogi</h6>
                 <p class="card-text"></p>
@@ -51,10 +50,10 @@
           </div>
           <div class="col-sm-4 mt-5">
             <div class="card shadow bg-white">
-              <!-- <img src="..." class="card-img-top" alt="..."> -->
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="180" focusable="false" role="img" aria-label="Placeholder: Image cap"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".0em">-</text></svg>
+              <img src="img/abstain.png" class="card-img-top p-4" alt="abstain" width="348px" height="272px">
+              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="180" focusable="false" role="img" aria-label="Placeholder: Image cap"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".0em">-</text></svg> -->
               <div class="card-body">
-                <h6 class="card-title">Tidak Memilih</h6>
+                <h6 class="card-title"> Abstain</h6>
                 <p class="card-text"></p>
                 <input type="submit" class="btn btn-primary" name="KAHIM-WAKAHIM2" value="Abstain">
               </div>
