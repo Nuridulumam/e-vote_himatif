@@ -24,6 +24,9 @@
       <?php
         include 'koneksi.php';
         session_start();
+        if ($_SESSION['id_admin'] == "") {
+          header("location:login-admin.php?pesan=gagal");
+        }
         $data1 = mysqli_query($koneksi, "SELECT * FROM tb_paslon1 ORDER BY pilihan ASC");
         $data2 = mysqli_query($koneksi, "SELECT * FROM tb_paslon2 ORDER BY pilihan ASC");
         $data_vote1 = mysqli_fetch_assoc($data1);
@@ -74,6 +77,7 @@
                   <th scope="col">Pilihan</th>
                   <th scope="col">Hari/Tanggal</th>
                   <th scope="col">Waktu</th>
+                  <th scope="col">Action</th>
                   </tr>
               </thead>
               <tbody>
@@ -85,12 +89,17 @@
                     <th scope="row"><?= $no++?></th>
                     <td><?= $data_vote1['id_pemilih']?></td>
                     <td width="300px"><?= $data_vote1['nama_lengkap']?></td>
-                    <td width="260px"><?= $data_vote1['email']?></td>
+                    <td width="210px"><?= $data_vote1['email']?></td>
                     <td><?= $data_vote1['pilihan']?></td>
                     <td><?= $data_vote1['tanggal']?></td>
                     <td><?= $data_vote1['waktu']?></td>
-                  </tr>
-                <?php 
+                    <td>
+                    <a href="hapus-suara.php?kode=<?= $data_vote1["id_pemilih"]; ?>" type="button" class="badge badge-danger">
+                      Tidak Sah
+                    </a>
+                    </td>
+                  </tr>    
+              <?php 
                 } while ($data_vote1= mysqli_fetch_assoc($data1));
                 ?>
               </tbody>
@@ -134,12 +143,6 @@
               </table>
             </div>
           </div>
-
-
-
-
-
-
         </div>
       </div>
     </div>
