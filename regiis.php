@@ -37,7 +37,7 @@
                   <div class="form-group col-md-6">
                     <label for="inputUsername">Username</label>
                     <input type="text" name="inputUsername" class="form-control" id="inputUsername" required>
-                    <small id="emailexp" class="form-text text-muted">cth: @nuridulumam71</small>
+                    <small id="emailexp" class="form-text text-muted">cth: nuridulumam01</small>
                   </div>
                 </div>
                 <div class="form-group">
@@ -53,8 +53,8 @@
                 <div class="form-row">
                   <div class="form-group col-md-6">
                     <label for="inputNIM">NIM</label>
-                    <input type="number" class="form-control" id="inputNIM" name="inputNIM" min="203140710000000" max="203140719999999" required>
-                    <small id="emailexp" class="form-text text-muted">19314071****</small>
+                    <input type="number" class="form-control" id="inputNIM" name="inputNIM" min="183140710000000" max="203140719999999" required>
+                    <small id="emailexp" class="form-text text-muted">cth: 19314071****</small>
                   </div>
                   <div class="form-group col-md-4">
                     <label for="inputKelas">Kelas</label>

@@ -56,7 +56,7 @@
               <div class="card-body">
                 <h6 class="card-title">Tidak Memilih</h6>
                 <p class="card-text"></p>
-                <input type="submit" class="btn btn-primary" name="KAHIM-WAKAHIM2" value="Tidak Memilih">
+                <input type="submit" class="btn btn-primary" name="KAHIM-WAKAHIM2" value="Abstain">
               </div>
             </div>
           </div>

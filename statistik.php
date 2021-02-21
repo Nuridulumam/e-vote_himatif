@@ -68,7 +68,7 @@
 
           // The data for our dataset
           data: {
-              labels: ['Ami - Yogi', 'Tidak Memilih'],
+              labels: ['Ami - Yogi', 'Abstain'],
               datasets: [{
                   label: 'Hasil e-vote Kahim-Wakahim Himatif 2021',
                   backgroundColor: ['rgb(255, 99, 132)', 'rgb(54, 162, 235)'],
