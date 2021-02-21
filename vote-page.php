@@ -50,7 +50,7 @@
           </div>
           <div class="col-sm-4 mt-5">
             <div class="card shadow bg-white">
-              <img src="img/abstain.png" class="card-img-top p-4" alt="abstain" width="348px" height="272px">
+              <img src="img/abstain.png" class="card-img-top p-5" alt="abstain" width="348px" height="272px">
               <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="180" focusable="false" role="img" aria-label="Placeholder: Image cap"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".0em">-</text></svg> -->
               <div class="card-body">
                 <h6 class="card-title"> Abstain</h6>

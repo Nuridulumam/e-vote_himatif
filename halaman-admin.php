@@ -88,11 +88,11 @@
                   <tr style="width: 100%;">
                     <th scope="row"><?= $no++?></th>
                     <td><?= $data_vote1['id_pemilih']?></td>
-                    <td width="300px"><?= $data_vote1['nama_lengkap']?></td>
-                    <td width="210px"><?= $data_vote1['email']?></td>
+                    <td width="250px"><?= $data_vote1['nama_lengkap']?></td>
+                    <td width="250px"><?= $data_vote1['email']?></td>
                     <td><?= $data_vote1['pilihan']?></td>
                     <td><?= $data_vote1['tanggal']?></td>
-                    <td><?= $data_vote1['waktu']?></td>
+                    <td width="100px"><?= $data_vote1['waktu']?></td>
                     <td>
                     <a href="hapus-suara.php?kode=<?= $data_vote1["id_pemilih"]; ?>" type="button" class="badge badge-danger">
                       Tidak Sah
@@ -131,11 +131,11 @@
                   <tr style="width: 100%;">
                     <th scope="row"><?= $no++?></th>
                     <td><?= $data_vote2['id_pemilih']?></td>
-                    <td width="300px"><?= $data_vote2['nama_lengkap']?></td>
+                    <td width="250px"><?= $data_vote2['nama_lengkap']?></td>
                     <td width="260px"><?= $data_vote2['email']?></td>
                     <td><?= $data_vote2['pilihan']?></td>
                     <td><?= $data_vote2['tanggal']?></td>
-                    <td><?= $data_vote2['waktu']?></td>
+                    <td width="150px"><?= $data_vote2['waktu']?></td>
                     <td>
                     <a href="hapus-suara.php?kode=<?= $data_vote1["id_pemilih"]; ?>" type="button" class="badge badge-danger">
                       Tidak Sah

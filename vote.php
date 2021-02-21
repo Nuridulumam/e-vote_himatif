@@ -6,7 +6,7 @@ $namalengkap = $_SESSION['nama_lengkap'];
 $email = $_SESSION['email'];
 $id_pemilih = $_SESSION['id_pemilih'];
 date_default_timezone_set('Asia/Bangkok');
-$waktu = date('h:i:s');
+$waktu = date('h:i:s A');
 $tanggal = date("l, Y-m-d");
 
 
