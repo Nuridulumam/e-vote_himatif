@@ -120,6 +120,7 @@
                   <th scope="col">Pilihan</th>
                   <th scope="col">Hari/Tanggal</th>
                   <th scope="col">Waktu</th>
+                  <th scope="col">Action</th>
                   </tr>
               </thead>
               <tbody>
@@ -135,6 +136,11 @@
                     <td><?= $data_vote2['pilihan']?></td>
                     <td><?= $data_vote2['tanggal']?></td>
                     <td><?= $data_vote2['waktu']?></td>
+                    <td>
+                    <a href="hapus-suara.php?kode=<?= $data_vote1["id_pemilih"]; ?>" type="button" class="badge badge-danger">
+                      Tidak Sah
+                    </a>
+                    </td>
                   </tr>
                 <?php 
                 } while ($data_vote2= mysqli_fetch_assoc($data2));
