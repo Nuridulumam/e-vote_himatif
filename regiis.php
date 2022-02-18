@@ -7,14 +7,14 @@
     <!-- offline CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="shortcut icon" type="image/png" href="img/himatif.png" />
-    <title>e-vote Himatif 2021</title>
+    <title>e-vote Himatif 2022</title>
   </head>
   <body>
     <nav class="navbar sticky-top navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
       <div class="container">
         <a class="navbar-brand" href="index.html">
           <img src="https://cdn.iconscout.com/icon/free/png-512/election-box-2-1168303.png" width="30" height="30" class="d-inline-block align-top" alt="brand-logo">
-          PEMILWA HIMATIF 2021
+          PEMILWA HIMATIF 2022
         </a>
         <button class="btn btn-primary btn-outline-white" type="button" onclick="window.location.href='login.php';">Log In</button>
       </div>
@@ -32,12 +32,12 @@
                   <div class="form-group col-md-6">
                     <label for="inputNama">Nama Lengkap</label>
                     <input type="text" name="inputNama" class="form-control" id="inputNama" required>
-                    <small id="emailexp" class="form-text text-muted">cth: Nuridul Umam</small>
+                    <small id="emailexp" class="form-text text-muted">cth: Nur Aulia Karisma Dewi</small>
                   </div>
                   <div class="form-group col-md-6">
                     <label for="inputUsername">Username</label>
                     <input type="text" name="inputUsername" class="form-control" id="inputUsername" required>
-                    <small id="emailexp" class="form-text text-muted">cth: nuridulumam01</small>
+                    <small id="emailexp" class="form-text text-muted">cth: nurauliakarisma</small>
                   </div>
                 </div>
                 <div class="form-group">
@@ -54,7 +54,7 @@
                   <div class="form-group col-md-6">
                     <label for="inputNIM">NIM</label>
                     <input type="number" class="form-control" id="inputNIM" name="inputNIM" min="183140710000000" max="203140719999999" required>
-                    <small id="emailexp" class="form-text text-muted">cth: 19314071****</small>
+                    <small id="emailexp" class="form-text text-muted">cth: 20314071****</small>
                   </div>
                   <div class="form-group col-md-4">
                     <label for="inputKelas">Kelas</label>
@@ -63,6 +63,7 @@
                       <option>TI-A</option>
                       <option>TI-B</option>
                       <option>TI-C</option>
+                      <option>TI-D</option>
                     </select>
                   </div>
                   <div class="form-group col-md-2">

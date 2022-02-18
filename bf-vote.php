@@ -7,7 +7,7 @@
     <!-- offline CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="shortcut icon" type="image/png" href="img/himatif.png" />
-    <title>e-vote Himatif 2021</title>
+    <title>e-vote Himatif 2022</title>
   </head>
   <body>
     <?php
@@ -22,7 +22,7 @@
       <div class="container">
         <a class="navbar-brand" href="index.html">
           <img src="https://cdn.iconscout.com/icon/free/png-512/election-box-2-1168303.png" width="30" height="30" class="d-inline-block align-top" alt="brand-logo">
-          PEMILWA HIMATIF 2021
+          PEMILWA HIMATIF 2022
         </a>
           <button class="btn btn-danger btn-outline-white" type="button" onclick="window.location.href='keluar.php';">Keluar</button>
         </div>
@@ -35,7 +35,7 @@
             <div class="card text-center">
               <div class="card-header">Hai! <?= $_SESSION['nama_lengkap']; ?></div>
               <div class="card-body">
-                <h5 class="card-title">Pemilihan Calon Ketua HIMATIF 2021</h5>
+                <h5 class="card-title">Pemilihan Calon Ketua HIMATIF 2022</h5>
                 <p class="card-text"></p>
                 <?php
                   if ($_SESSION['pilihan1'] == "") {

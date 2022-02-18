@@ -7,14 +7,14 @@
     <!-- offline CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="shortcut icon" type="image/png" href="img/himatif.png" />
-    <title>e-vote Himatif 2021</title>
+    <title>e-vote Himatif 2022</title>
   </head>
   <body>
     <nav class="navbar sticky-top navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
       <div class="container">
         <a class="navbar-brand" href="index.html">
           <img src="https://cdn.iconscout.com/icon/free/png-512/election-box-2-1168303.png" width="30" height="30" class="d-inline-block align-top" alt="brand-logo">
-          ADMIN PEMILWA HIMATIF 2021
+          ADMIN PEMILWA HIMATIF 2022
         </a>
           <!-- <button class="btn btn-primary btn-outline-white" type="button">Log In</button> -->
         </div>

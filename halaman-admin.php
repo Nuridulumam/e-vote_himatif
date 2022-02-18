@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="shortcut icon" type="image/png" href="img/himatif.png" />
     <link href="https://cdn.datatables.net/1.10.18/css/dataTables.bootstrap4.min.css" rel="stylesheet">
-    <title>e-vote Himatif 2021</title>
+    <title>e-vote Himatif 2022</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
       <div class="container">
         <a class="navbar-brand" href="index.html">
           <img src="https://cdn.iconscout.com/icon/free/png-512/election-box-2-1168303.png" width="30" height="30" class="d-inline-block align-top" alt="brand-logo">
-          ADMIN PEMILWA HIMATIF 2021
+          ADMIN PEMILWA HIMATIF 2022
         </a>
         <button class="btn btn-danger btn-outline-white" type="button" onclick="window.location.href='keluar.php';">Keluar</button>
         </div>
@@ -39,7 +39,7 @@
         <div class="card text-center shadow mb-3">
               <div class="card-header">Hai! <?= $_SESSION['nama']; ?></div>
               <div class="card-body">
-                <h5 class="card-title">Halaman Panwas PEMILWA HIMATIF 2021</h5>
+                <h5 class="card-title">Halaman Panwas PEMILWA HIMATIF 2022</h5>
                 <p class="card-text"></p>
               </div>
               <div class="card-footer text-muted">ID <?= $_SESSION['id_admin']; ?></div>
@@ -56,7 +56,7 @@
               <li class="list-group-item text-center">
                 <!-- collapse paslon 2 -->
                 <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#paslon2Example" aria-expanded="false" aria-controls="paslon2Example">
-                  Tabel Paslon 2
+                  Tabel Abstain
                 </button>
               </li>
             </ul>
@@ -109,7 +109,7 @@
                 <!-- DATA 2 -->
                 <div class="collapse" id="paslon2Example">
             <div class="card shadow card-body">
-                <h4 class="h4 mb-2" width="300px">Tabel Daftar Pemilih Paslon 2</h4>
+                <h4 class="h4 mb-2" width="300px">Tabel Daftar Pemilih Abstain</h4>
               <table id="dataTable1" class="table table-hover table-responsive" >
               <thead>
                   <tr>

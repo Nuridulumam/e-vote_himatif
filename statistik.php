@@ -6,7 +6,7 @@
     <!-- offline CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="shortcut icon" type="image/png" href="img/himatif.png" />
-    <title>e-vote Himatif 2021</title>
+    <title>e-vote Himatif 2022</title>
   </head>
   <body>
     <?php
@@ -22,7 +22,7 @@
       <div class="container">
         <a class="navbar-brand" href="index.html">
           <img src="https://cdn.iconscout.com/icon/free/png-512/election-box-2-1168303.png" width="30" height="30" class="d-inline-block align-top" alt="brand-logo">
-          PEMILWA HIMATIF 2021
+          PEMILWA HIMATIF 2022
         </a>
           <button class="btn btn-danger btn-outline-white" type="button" onclick="window.location.href='keluar.php';">Keluar</button>
         </div>
@@ -35,8 +35,8 @@
             <div class="card text-center">
               <div class="card-header">Hai! <?= $_SESSION['nama_lengkap']; ?></div>
               <div class="card-body">
-                <h5 class="card-title">e-Vote Himatif 2021</h5>
-                <p class="card-text">Data statistik hasil e-vote Pemilihan Calon Kahim-Wakahim <br> Himpunan Mahasiswa Teknologi Informasi 2021</p>
+                <h5 class="card-title">e-Vote Himatif 2022</h5>
+                <p class="card-text">Data statistik hasil e-vote Pemilihan Calon Kahim-Wakahim <br> Himpunan Mahasiswa Teknologi Informasi 2022</p>
                 <div class="chart">
                   <div class="row">
                     <div class="col-12">
@@ -68,9 +68,9 @@
 
           // The data for our dataset
           data: {
-              labels: ['Ami - Yogi', 'Abstain'],
+              labels: ['Yossi - Izzatul', 'Abstain'],
               datasets: [{
-                  label: 'Hasil e-vote Kahim-Wakahim Himatif 2021',
+                  label: 'Hasil e-vote Kahim-Wakahim Himatif 2022',
                   backgroundColor: ['rgb(255, 99, 132)', 'rgb(54, 162, 235)'],
                   borderColor: 'rgb(255, 255, 255)',
                   data: [

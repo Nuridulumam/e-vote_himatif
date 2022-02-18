@@ -22,7 +22,7 @@
       <div class="container">
         <a class="navbar-brand" href="index.html">
           <img src="https://cdn.iconscout.com/icon/free/png-512/election-box-2-1168303.png" width="30" height="30" class="d-inline-block align-top" alt="brand-logo">
-          PEMILWA HIMATIF 2021
+          PEMILWA HIMATIF 2022
         </a>
           <!-- <button class="btn btn-danger btn-outline-white" type="button" onclick="window.location.href='index.html';">Keluar</button> -->
         </div>
@@ -39,9 +39,9 @@
           <div class="col-sm-2"></div>
           <div class="col-sm-4 mt-5">
             <div class="card shadow bg-white">
-            <img class="card-img-top" src="img/Paslon 1 (2).png" alt="Kahim-wakahim">
+            <img class="card-img-top" src="img/paslon2022.jpg" alt="Kahim-wakahim">
               <div class="card-body">
-                <h6 class="card-title">Nur Amalia Asmi - Attila Shandi Prayogi</h6>
+                <h6 class="card-title">Yossi Dwi Oktavia - Nur Izzatul Auliyaa</h6>
                 <p class="card-text"></p>
                 <form action="vote.php" method="POST">
                   <input type="submit" class="btn btn-primary" name="KAHIM-WAKAHIM1" value="PASLON 1">
